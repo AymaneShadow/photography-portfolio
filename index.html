@@ -28,6 +28,10 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
+
+
+		    <!-- Magnific-popup -->
+		    <link rel="stylesheet" href="css/magnific-popup.css">				
 		</head>
 		<body>
 			<div class="protfolio-wrap">
@@ -45,8 +49,19 @@
 
 						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 						    <ul class="navbar-nav">
+						    	<li><a href="#contact">Contact Me</a></li>
 								<li><a href="#portfolio">Best Photos</a></li>
-								<li><a href="#projects">Projects</a></li>	
+							   <!-- Dropdown -->
+							    <li class="dropdown">
+							      <a class="dropdown-toggle" href="#projects" id="navbardrop" data-toggle="dropdown">
+							        Projects
+							      </a>
+							      <div class="dropdown-menu">
+							        <a class="dropdown-item" href="midterm.html">Midterm Project</a>
+							        <a class="dropdown-item" href="final.html">Final Project</a>
+							      </div>
+							    </li>
+							    <li><a href="#contact">About Me</a></li>								
 						    </ul>
 						  </div>						
 					</div>
@@ -54,7 +69,7 @@
 			</header>
 			<!-- End Header Area -->	
 				<!-- start banner Area -->
-				<section class="banner-area relative" id="home">	
+				<section class="banner-area relative" id="contact">	
 					<div class="overlay overlay-bg"></div>
 					<div class="container">
 						<div class="row fullscreen d-flex align-items-center justify-content-center">
@@ -63,8 +78,8 @@
 								<h1>
 									Aymane Chaoui			
 								</h1>
-								<h6>I’m passionate about using technology to bring ideas to life.</h6>
-								<a href="#" class="primary-btn text-uppercase">Email aymanechaoui95@gmail.com</a>							    
+								<h6>Contact me using this email:</h6>
+								<a href="#" class="primary-btn text-uppercase">aymanechaoui95@gmail.com</a>							    
 							</div>											
 						</div>
 					</div>
@@ -85,58 +100,95 @@
 				    
 				    
 				    <div class="filters-content">
-				      <div class="row">
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p1.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Macro Photography</h4>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p2.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Nightime with a light source</h4>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p3.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Classmate Photo</h5>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p4.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Photoshop: Skin Irregularities</h4>
-				            </div>
-				          </div>
-				        </div>
+				      	<div class="row img-container">
 
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p5.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Alphabet Photography</h4>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4">
-				          <div class="item">
-				            <img src="img/photos/small/p6.png" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Classroom Object Photo</h4>
-				            </div>
-				          </div>
-				        </div>				        		        				        
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P1.JPG" title="Macro Photography">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p1.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Macro Photography</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P2.JPG" title="Nightime with a light source">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p2.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Nightime with a light source</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P3.JPG" title="Classmate Photo">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p3.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Classmate Photo</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P4.JPG" title="Photoshop">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p4.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Photoshop</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P5.JPG" title="Alphabet Photography">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p5.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Alphabet Photography</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="single-portfolio col-sm-4">
+								<a href="img/photos/best/P6.JPG" title="Classroom Object Photo">
+								    <div class="project_box_one item">
+									    <img src="img/photos/best/small/p6.png" alt="Work 1">
+					                    <div class="product_info">
+					                        <div class="product_info_text">
+					                            <div class="product_info_text_inner p-inner">
+					                                <h4>Classroom Object Photo</h4>
+					                            </div>
+					                        </div>
+					                    </div>
+								    </div>
+							    </a>
+							</div>														
+			        		        				        
 
-				      </div>
+				      	</div>
 				    </div>
 				    
 				  </div>
@@ -144,277 +196,55 @@
 				<!-- End portfolio-area Area -->	
 
 
-				<!-- Start portfolio-area Area 	-->
-				<section class="portfolio-area section-gap" id="projects">
-				  <div class="container">
+				<!-- Start service Area -->
+				<section class="service-area section-gap relative" id="service">
+					<div class="overlay overlay-bg"></div>	
+					<div class="container">
 						<div class="row d-flex justify-content-center">
-							<div class="menu-content col-lg-10">
+							<div class="menu-content pb-60 col-lg-10">
 								<div class="title text-center">
-									<h1 class="mb-10">Projects</h1>
-									<p>Here are the photography projects I have worked on</p>
+									<h1 class="mb-10 text-white" style="padding-bottom: 100px;">Projects</h1>
 								</div>
 							</div>
-						</div>
-
-
-				    <div class="filters">
-				      <ul>
-				      	<li class="active" data-filter="*">All</li>
-				        <li data-filter=".midterm">Midterm</li>
-				        <li data-filter=".final">Final</li>
-				      </ul>
-				    </div>
-
-				    
-				    <div class="filters-content">
-				      <div class="row grid">
-			        
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m1.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m2.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m3.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m4.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m5.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m6.png" alt="Work 1">
-				          </div>
-				        </div>				        		        
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m7.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m8.png" alt="Work 1">
-				          </div>
-				        </div>	
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m9.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m10.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m11.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m12.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m13.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m14.png" alt="Work 1">
-				          </div>
-				        </div>				        		        
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m15.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m16.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m17.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m18.png" alt="Work 1">
-				          </div>
-				        </div>				        		        
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m19.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all midterm">
-				          <div class="item">
-				            <img src="img/photos/midterm/small/m20.png" alt="Work 1">
-				          </div>
-				        </div>
-
-
-
-
-
-
-
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f1.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f2.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f3.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f4.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f5.png" alt="Work 1">
-				          </div>
-				        </div>				        				        				        
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f6.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f7.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f8.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f9.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f10.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f11.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f12.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f13.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f14.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f15.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f16.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f17.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f18.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f19.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f20.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f21.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f22.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f23.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f24.png" alt="Work 1">
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-3 all final">
-				          <div class="item">
-				            <img src="img/photos/final/small/f25.png" alt="Work 1">
-				          </div>
-				        </div>				        				        				        				        
-
-				      </div>
-				    </div>
-				    
-				  </div>
+						</div>	
+					</div>	
 				</section>
-				<!-- End portfolio-area Area -->					
+				<!-- End service Area -->
+				
+				<!-- Start services Area -->
+				<section class="services-area pb-100" >
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="single-service">
+									<img class="img-fluid" src="img/photos/midterm/small/m1.png" alt="">
+									<h4>Midterm Project</h4>
+									<p>
+										A day in the life of a leatherworker in the old Medina of Fès.
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="single-service">
+									<img class="img-fluid" src="img/photos/final/small/f1.png" alt="">
+									<h4>Final Project</h4>
+									<p>
+										Double life.
+									</p>
+								</div>
+							</div>													
+						</div>
+					</div>	
+				</section>
+				<!-- End services Area -->
+			
 				
 
 				<!-- start footer Area -->		
 				<footer class="footer-area section-gap">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-12  col-md-12 col-sm-12">
+							<div class="col-lg-12 col-md-12 col-sm-12">
 								<div class="single-footer-widget">
 									<h6>Follow Me</h6>
 									<div class="footer-social d-flex align-items-center">
@@ -450,6 +280,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/mail-script.js"></script>
 			<script src="js/isotope.pkgd.min.js"></script>	
 			<script src="js/main.js"></script>	
+
+
+<!--Portfolio Filter-->
+<script src="js/imgloaded.js"></script>
+
+<script src="js/wow.min.js"></script>
+
+<!--Counter-->
+<script src="js/jquery.counterup.min.js"></script>
+
 		</body>
 	</html>
 
