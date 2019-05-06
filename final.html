@@ -31,7 +31,14 @@
 
 
 		    <!-- Magnific-popup -->
-		    <link rel="stylesheet" href="css/magnific-popup.css">				
+		    <link rel="stylesheet" href="css/magnific-popup.css">	
+
+		    <style>
+			    #more
+			    {
+			    	display: none;
+			    }
+		    </style>			
 		</head>
 		<body>
 			<div class="protfolio-wrap">
@@ -72,13 +79,31 @@
 
 
 			<!-- start banner Area -->
-			<section class="generic-banner relative" style="height: 300px;">	
+			<section class="generic-banner relative" style="height: 370px;"  id="banner">	
 				<div class="container">
 					<div class="row height justify-content-center" style="padding-top: 130px;">
-						<div class="col-lg-10">
+						<div class="col-lg-10" style="text-align: left;">
 
-								<h2 class="text-white">Final Project</h2>
-								<p class="text-white">Double Life</p>
+								<h2 class="text-white" style="padding-bottom: 30px; text-align: center;">Final Project</h2>
+
+
+								<p class="text-white">A "regular" AUI student goes out of class, in a hurry, to a magical and wild forest filled with untamed animals, insects, trees, and plants. Her destination is a very special tree, known as Nor’Darsil, or the outland tree, in Elvish language.
+								
+								<div id="dots"><p class="text-white">After casting a magical spell...</p></div><div id="more"><p class="text-white">After casting a magical spell, Nor’Darsil teleports the adventurer to an alternative universe where she is known as a reputable elf warrior with unparalleled archery skills.</p>
+
+								<p class="text-white">Right after the teleportation spell starts to take effect, an unknown person yells at her. Confused, the student gets teleported anyways before she gets to talk with the stranger.</p>
+
+								<p class="text-white">The student is now in a completely different universe. Usually, she takes the time to get herself ready for new adventures, however, she suddenly finds herself into an ambush instead. Even the most skilled warriors would not stand a chance against these foes, who seem to be quite prepared.</p>
+
+								<p class="text-white">Before she knows it, the student is shot in the belly. Bravely, she removes the arrow, flees with the best of her ability while defending herself by shooting arrows back at her foes. Eventually, she manages to outrun them but ends up laying down on the ground near a river while her enemies linger behind.</p>
+
+								<p class="text-white">The stranger suddenly appears; she spots the student and runs to help her. The student is in agony but still alive. The stranger quickly heals the wounded woman. In gratitude, the student hugs her savior; however, the adventurers have no time to lose.</p>
+
+								<p class="text-white">They swiftly run back to Nor’Darsil, cast the teleportation spell and go back to the original universe. They part ways, and the student heads back to her school, to the library. In other words, she is back to her boring life.</div></p>
+								
+								<div style="text-align: center;">
+								<a href="#" onclick="myFunction()" id="myBtn" class="primary-btn text-uppercase">Read More</a>				
+								</div>								
 													
 						</div>
 					</div>
@@ -337,6 +362,31 @@
 
 <!--Counter-->
 <script src="js/jquery.counterup.min.js"></script>
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+  var banner = document.getElementById("banner");
+
+  if (dots.style.display === "none")
+  {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+    banner.style.height = "370px";
+  }
+  else
+  {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+    banner.style.height = "750px";
+  }
+} 
+</script>
 
 		</body>
 	</html>
